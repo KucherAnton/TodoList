@@ -3,8 +3,34 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Список дел</title>
+		<link rel="stylesheet" href="css.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 	</head>
 	<body>
+		<header>
+			<h1>Список дел ебаный рот</h1>
+		</header>
+		<form>
+			<input type="text" class="Todo-input" />
+			<button class="todo-button" type="submit">
+				<i class="fas fa-plus-square"></i>
+			</button>
+		</form>
+		<div class="todo-container">
+			<ul class="todo-list"></ul>
+		</div>
 		<script src="JavaScript.js"></script>
 	</body>
 </html>
